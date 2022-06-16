@@ -15,18 +15,21 @@ body{
     top: 166px;
 
     background: #FFFFFF;
+
 }
-
+#content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#content .head{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
 /* le titre Java scipt Quiz */
-#content>h1{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: -21.88%;
-
-    font-family: 'Inter';
-    font-style: normal;
+#content h1{
+    margin: 70px 0 0 30px;
     font-weight: 500;
     font-size: 32px;
     line-height: 39px;
@@ -34,23 +37,21 @@ body{
     color: #555555;
 }
 
-#content>p{
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: -1.3%;
-    bottom: 19.48%;
-
+#content p{
+    
+    margin: 20px 40px 40px 20px;
+    padding: 0 25px 0 25px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    /* or 158% */
-
     text-align: center;
-
     color: #555555;
-
 }
 
+#content .body #form .columns{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
