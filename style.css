@@ -6,6 +6,9 @@ body{
     background-color: #03f1cd;
     font-family: 'Inter';
 }
+#form{
+    
+}
 
 #main{
     position: absolute;
@@ -126,8 +129,8 @@ body{
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
-
 }
+
 .quit{
     color: #FFFFFF;
     border: solid 1px;
