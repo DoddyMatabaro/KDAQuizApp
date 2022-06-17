@@ -178,3 +178,23 @@ form .page .btns button.next{
   display: block;
   color: #fff;
 }
+
+.success{
+    height: 80px; width: 80px;
+    margin-left: 110px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: #028A3D solid 10px;
+    display: flex;
+    align-items: center;
+   
+}
+.success .check{
+    color: #028A3D;
+    padding-left: 20px;
+    font-size: 40px;
+}
+.page .score{
+    margin: 20px;
+    font-weight: bold;
+}
