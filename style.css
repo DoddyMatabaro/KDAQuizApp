@@ -7,7 +7,7 @@ body{
     font-family: 'Inter';
 }
 #form{
-    
+
 }
 
 #main{
@@ -76,6 +76,7 @@ body{
     color:#FFFFFF;
     font-size: 20px; font-weight: bold;
 }
+
 .info{
     display: block;
     margin-top: 5px;
@@ -112,12 +113,14 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .columns>.column>div>button{
     color: #FFFFFF;
     margin: 0 40px 0 0;
     height: 40px; 
     border: solid 1px;
 }
+
 .next{
     color: #FFFFFF;
     border: solid 1px;
