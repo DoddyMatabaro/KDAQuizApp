@@ -10,12 +10,10 @@ body{
 #main{
     position: absolute;
     width: 571px;
-    height: 784px;
-    left: 578px;
-    top: 166px;
-
+    height: 750px;
+    left: 30%;
+    top: 40px;
     background: #FFFFFF;
-
 }
 #content{
     display: grid;
@@ -50,8 +48,52 @@ body{
     color: #555555;
 }
 
-#content .body #form .columns{
+.columns{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+}
+.columns>.column{
+    padding: 0;
+    margin: 0 25px 0 25px;
+}
+
+.column>label{
+    display: block;
+    margin-bottom: 10px;
+}
+.columns>.column>.input{
+    height: 40px;width: 100%;
+    border: 1px solid #FF3838;
+}
+.columns>.column>button{
+    height: 40px;width: 240px;
+    margin: 40px 140px 0 130px;
+    background-color: #028A3D;
+    color:#FFFFFF;
+    font-size: 20px; font-weight: bold;
+}
+.info{
+    display: block;
+    margin-top: 5px;
+    color: #FF3838;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/* deuxieme page */
+
+.columns>.column-radio{
+    padding: 0;
+    margin: 0 25px 25px 25px;
+    border: solid 1px #DDDDDD;
+}
+
+.columns>.column-radio>.input{
+    font-size: 50px;
+    /* padding: 20px; */
+
 }
